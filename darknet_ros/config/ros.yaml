@@ -1,7 +1,7 @@
 subscribers:
 
   camera_reading:
-    topic: /airsim_node/drone_1/front_left_custom/Scene
+    topic: /airsim_node/PX4/front_center/Scene
     queue_size: 1
 
 actions:
