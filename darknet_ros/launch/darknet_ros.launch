@@ -24,5 +24,12 @@
     <remap from="camera/rgb/image_raw"  to="$(arg image)" />
   </node>
 
+  <arg name="ros_param_file"             default="$(find aisum_logging)/config/ros.yaml"/>
+
+  <!-- The talker node will publish a custom message. -->
+  <node pkg="aisum_logging" type="detection_logging.py" name="detection_logging">
+    
+  </node>
+
  <!--<node name="republish" type="republish" pkg="image_transport" output="screen" 	args="compressed in:=/front_camera/image_raw raw out:=/camera/image_raw" /> -->
 </launch>
