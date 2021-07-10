@@ -3,7 +3,7 @@ yolo_model:
   config_file:
     name: yolov3-tiny.cfg
   weight_file:
-    name: yolov3-tiny_hive.weights
+    name: yolov3-tiny_hive_06_10_21.weights
   threshold:
     value: 0.3
   detection_classes:
@@ -11,12 +11,10 @@ yolo_model:
       - bed
       - chair
       - sofa
-      - swivelchair
       - table
       - broom
       - person
       - file_cabinet
-      - bench
       - bookshelf
       - cabinet
       - cart
