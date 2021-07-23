@@ -8,15 +8,10 @@ yolo_model:
     value: 0.3
   detection_classes:
     names:
-      - bed
-      - chair
-      - sofa
-      - table
-      - broom
+      - pistol
+      - smartphone
+      - knife
+      - monedero
+      - billete
+      - tarjeta
       - person
-      - file_cabinet
-      - bookshelf
-      - cabinet
-      - cart
-      - desk
-      - stretcher
