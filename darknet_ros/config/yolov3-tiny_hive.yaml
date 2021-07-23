@@ -1,7 +1,7 @@
 yolo_model:
 
   config_file:
-    name: yolov3-tiny-hive-23-july-21.cfg
+    name: yolov3-tiny-hive-23-july-set-1.cfg
   weight_file:
     name: v3_tiny_13_july_21/yolov3-tiny_4800.weights
   threshold:
