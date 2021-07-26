@@ -1,7 +1,7 @@
 subscribers:
 
   camera_reading:
-    topic: /airsim_node/PX4/front_center/Scene
+    topic: /camera/color/image_raw
     queue_size: 1
 
 actions:
